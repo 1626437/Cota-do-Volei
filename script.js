@@ -7,7 +7,9 @@ let fieldPartipante1hora = document.getElementById("pessoasporHora");
 fieldPartipante1hora.style.display = "none";
 
 function checkFormFields() {
-  if (inputDuracao.value == "hora2") {
+  
+let inputDuracaoActual = document.querySelector("#controlaRadios");
+  if (inputDuracaoActual.value == "hora2") {
     fieldPartipante1hora.style.display = "block";
   } else {
     fieldPartipante1hora.style.display = "none";
