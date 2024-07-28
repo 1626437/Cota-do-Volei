@@ -342,11 +342,6 @@ p {
 }
 
 @media screen and (max-width: 500px) {
-    .full-width-img {
-	margin: auto;
-	width: 90%;
-    }
-
     #textDiv {
         padding: 10px;
     }
@@ -392,4 +387,8 @@ p {
         font-weight: 400;
         margin: 5px;
     }
+}
+
+@media only screen and (max-device-width: 900px) {
+  #textDiv { width:100%; }
 }
