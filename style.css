@@ -18,11 +18,11 @@ body {
     /* overflow: auto; */
     padding: 3em;
     position: fixed;
-    /*right: 0;
-    text-align: center; 
-    top: 0;*/
+    right: 0;
+    /*text-align: center; */
+    top: 0;
     background-blend-mode: overlay;
-    padding-top: 50%;
+    padding-top: 20%;
 }
 
 #container {
