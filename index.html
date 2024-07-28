@@ -18,7 +18,7 @@
       <input id="participantes" type="number" placeholder="Quantidade de Participantes" />
       <input id="valorHora" type="number" placeholder="Valor da Hora:" />
 
-      <select id="controlaRadios" name="primeiroFiltroName" onclick="checkFormFields()">
+      <select id="controlaRadios" name="primeiroFiltroName" onchange="checkFormFields()">
         <option hidden selected>Quantas Horas a serem Jogadas</option>
         <option value="hora1">Uma Hora</option>
         <option value="hora2" onclick="checkFormFields()">>Duas Horas</option>
