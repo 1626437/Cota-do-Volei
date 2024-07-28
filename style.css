@@ -9,21 +9,20 @@
 
 body {
     background-color: #F4D1C1;
-    background-image: url(./img/pngwing.png);
+    background-image: url(./assets/player.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 350px 750px;
     bottom: 0;
     /* color: black; */
-    left: 0;
-    overflow: auto;
+    /* left: 0; */
+    /* overflow: auto; */
     padding: 3em;
-    position: relative;
+    position: fixed;
     right: 0;
     /* text-align: center; */
     top: 0;
-    /*background-size: auto; */
     background-blend-mode: overlay;
-    padding-top: 10%;
+    padding-top: 50%;
 }
 
 #container {
