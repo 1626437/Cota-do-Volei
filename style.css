@@ -9,6 +9,21 @@
 
 body {
     background-color: #F4D1C1;
+    background-image: url(./img/pngwing.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    bottom: 0;
+    /* color: black; */
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: relative;
+    right: 0;
+    /* text-align: center; */
+    top: 0;
+    background-size: auto;
+    background-blend-mode: overlay;
+    padding-top: 25%;
 }
 
 #container {
@@ -48,7 +63,7 @@ select {
     margin: 20px auto;
     border-radius: 20px;
     border: solid 1px #C9C9C9;
-    font-size: 1.2rem;
+    font-size: 0.95rem;
     font-weight: 500;
     color: #adadad;
     outline: none;
@@ -178,6 +193,14 @@ p {
         margin: 30px auto;
         font-size: 1.5em;
     }
+    
+    select{
+        display: block;
+        max-width: 480px;
+        padding: 15px;
+        margin: 30px auto;
+        font-size: 1.5em;
+    }
 
     .button {
         -webkit-appearance: none;
@@ -227,6 +250,14 @@ p {
         font-size: 1.1em;
     }
 
+    select{
+        display: block;
+        max-width: 400px;
+        padding: 15px;
+        margin: 15px auto;
+        font-size: 1.1em;
+    }
+
     .button {
         -webkit-appearance: none;
         font-size: 1.1em;
@@ -251,6 +282,11 @@ p {
 }
 
 @media screen and (max-width: 500px) {
+    .full-width-img {
+	margin: auto;
+	width: 90%;
+    }
+
     #textDiv {
         padding: 10px;
     }
@@ -266,6 +302,14 @@ p {
         padding: 9px;
         margin: 15px auto;
         border-radius: 20px;
+    }
+
+    select{
+        display: block;
+        max-width: 260px;
+        padding: 9px;
+        margin: 15px auto;
+        font-size: 0.90em;
     }
 
     .button {
