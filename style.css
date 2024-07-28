@@ -169,6 +169,66 @@ p {
     margin: 15px;
 }
 
+@media screen and (max-width: 2400px) {
+    #container {
+        flex-direction: column;
+    }
+
+    #textDiv h2 {
+        font-size: 3em;
+        font-weight: 900;
+        color: #33353B;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    #textDiv {
+        padding: 30px;
+    }
+
+    input {
+        display: block;
+        max-width: 480px;
+        padding: 15px;
+        margin: 30px auto;
+        font-size: 1.5em;
+    }
+    
+    select{
+        display: block;
+        max-width: 480px;
+        padding: 15px;
+        margin: 30px auto;
+        font-size: 1.5em;
+    }
+
+    .button {
+        -webkit-appearance: none;
+        max-width: 200px;
+        font-size: 1.5em;
+    }
+
+    #resultado {
+        display: none;
+        padding: 10px 0px;
+        border-radius: 30px;
+        text-align: center;
+    }
+
+    #resultado h3 {
+
+        font-size: 2.5em;
+        font-weight: 900;
+        color: #33353B;
+    }
+
+    p {
+        font-size: 1.5em;
+        font-weight: 400;
+        margin: 30px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     #container {
         flex-direction: column;
